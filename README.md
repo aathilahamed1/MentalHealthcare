@@ -1,105 +1,92 @@
-# Psychora - A Firebase Studio Project
+# MENTAL HEALTHCARE – Student Wellness & Support Platform
 
-This is a Next.js application designed to be a comprehensive mental wellness companion for students. It was prototyped and developed in Firebase Studio.
-
-## Getting Started
-
-To get a copy of this project running on your local machine, you will need to have [Node.js](https://nodejs.org/) and [git](https://git-scm.com/) installed.
-
-### 1. Clone the Repository
-
-First, clone the project from its repository to your local machine. Open your terminal, navigate to the directory where you want to store the project, and run the following command:
-
-```bash
-git clone <YOUR_REPOSITORY_URL>
-```
-*Replace `<YOUR_REPOSITORY_URL>` with the actual URL of your project's git repository.*
-
-### 2. Navigate to the Project Directory
-
-Once the cloning is complete, move into the project folder:
-
-```bash
-cd <PROJECT_FOLDER_NAME>
-```
-*The project folder name is usually the same as the repository name.*
-
-### 3. Install Dependencies
-
-The project uses several libraries that need to be installed. Run the following command to install them:
-
-```bash
-npm install
-```
-
-This will download all the necessary packages defined in the `package.json` file.
-
-### 4. Set Up Environment Variables
-
-This project requires a connection to a Firebase project.
-
-1.  Create a new file named `.env.local` in the root of your project directory.
-2.  Follow the Firebase setup instructions to get your `firebaseConfig` object.
-3.  Add your Firebase project configuration to the `.env.local` file. It should look something like this, but with your actual keys:
-
-```
-NEXT_PUBLIC_FIREBASE_API_KEY="AIza..."
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="your-project-id.firebaseapp.com"
-NEXT_PUBLIC_FIREBASE_PROJECT_ID="your-project-id"
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="your-project-id.appspot.com"
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="..."
-NEXT_PUBLIC_FIREBASE_APP_ID="1:..."
-```
-
-### 5. Run the Development Server
-
-Now you are ready to start the application. Run the following command:
-
-```bash
-npm run dev
-```
-
-This will start the Next.js development server. You can view your application by opening your web browser and navigating to [http://localhost:9002](http://localhost:9002).
-
-The application will automatically reload if you make any changes to the source files.
+MentalHealthcare is a student-friendly digital platform created to make mental health support accessible, stigma-free, and comfortable. Students can speak anonymously with an AI companion, complete screenings, book counseling, learn in their regional language, and participate in a safe peer community — while institutions gain meaningful insights to support them better.
 
 ---
 
-## Uploading to GitHub
+## ❤️ What This Platform Offers
+- 🤖 **Anonymous AI Mental Health Assistant**
+  - Early emotional support
+  - Screening guidance with PHQ-9 / GAD-7 awareness
+- 📞 **Counseling Access Made Simple**
+  - Easy booking
+  - Secure online sessions
+- 🌍 **Regional Language Awareness Content**
+- 👥 **Peer Support Forum**
+  - Moderated
+  - Safe conversation space
+- 📊 **Insightful Admin Dashboard**
+  - Anonymous reports
+  - Trends for proactive decisions
+- 🎮 **Student Engagement**
+  - Surveys
+  - Structured support pathways
+  - Interactive well-being activities
 
-If you have this project locally and want to publish it to your own GitHub repository, follow these steps.
+---
 
-### Step 1: Create a New Repository on GitHub
+## 🎯 Why This Matters
+- Students hesitate to seek help due to stigma
+- Awareness is limited in many campuses
+- Counselor availability is often low
+- Rural and semi-urban areas lack resources
 
-1.  Go to [GitHub.com](https://github.com) and log in.
-2.  Click the **+** icon in the top-right corner and select **"New repository"**.
-3.  Give your repository a name (e.g., `psychora-app`).
-4.  Choose "Public" or "Private".
-5.  **Important:** Do **NOT** initialize the repository with a README, .gitignore, or license. Your project already contains these files.
-6.  Click **"Create repository"**.
+This platform **reduces barriers**, creates **safe access**, and helps institutions **understand students better**.
 
-### Step 2: Push Your Local Project to GitHub
+---
 
-After creating the repository, GitHub will display a page with several commands. You want the section titled **"...or push an existing repository from the command line"**.
+## 🛠 Technologies Used
+**Frontend:** React  
+**Backend:** Node.js  
+**Database:** Firebase  
+**AI:** LLM powered mental health chatbot  
+**Security:** AES Encryption, privacy-centric design  
+**Notifications:** Firebase Cloud Messaging  
 
-1.  Open your terminal or command prompt in the root directory of your Psychora project.
-2.  Run the following commands one by one. Replace `<YOUR_REPOSITORY_URL>` with the URL you see on your new GitHub repository page (it will look like `https://github.com/your-username/psychora-app.git`).
+---
 
-```bash
-# Initialize git if it hasn't been already
-git init -b main
+## 🔁 How It Works
+1. Student opens platform anonymously  
+2. Talks to AI companion  
+3. Receives guidance or screening support  
+4. Books counseling or follows support pathway  
+5. System ensures privacy while admins only see anonymized trends  
 
-# Add all files to be tracked by git
-git add .
+---
 
-# Create your first commit
-git commit -m "Initial commit"
+## ✔️ Feasibility
+- Technically practical
+- Supports scalable deployment
+- Uses trusted screening approaches
+- Suitable for campus pilots
 
-# Link your local project to the remote GitHub repository
-git remote add origin <YOUR_REPOSITORY_URL>
+---
 
-# Push your code to GitHub
-git push -u origin main
-```
+## 🌟 Expected Benefits
+### Social
+- Reduced stigma
+- Early help
+- Stronger peer ecosystem
 
-After these commands complete, refresh your GitHub repository page. You should see all of your project files.
+### Educational
+- Lower dropouts
+- Better performance
+- Students emotionally stable
+
+### Institutional
+- Real-time wellbeing signals
+- Better preparedness
+- Informed decision-making
+
+---
+
+## 🔮 Future Scope
+- Wider language support
+- SOS / crisis escalation
+- More gamified well-being features
+- Mobile application deployment
+
+---
+
+## 📖 Research Support
+Backed by WHO, NIH studies, mental health research papers, and student survey insights.
